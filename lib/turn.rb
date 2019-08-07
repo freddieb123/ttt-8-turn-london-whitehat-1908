@@ -1,5 +1,5 @@
 def display_board(board)
-  divider = "---------"
+  divider = "-----------"
   print_line(board[0], board[1], board[2])
   puts divider
   print_line(board[3], board[4], board[5])
