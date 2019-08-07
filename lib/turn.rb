@@ -1,14 +1,14 @@
-def position_taken?(board, index)
-  board[index] != " "
-end
-
-def print_board(board)
+def display_board(board)
   divider = "---------"
   print_line(board[0], board[1], board[2])
   puts divider
   print_line(board[3], board[4], board[5])
   puts divider
   print_line(board[6], board[7], board[8])
+end
+
+def position_taken?(board, index)
+  board[index] != " "
 end
 
 def print_line(cellOne, cellTwo, cellThree)
