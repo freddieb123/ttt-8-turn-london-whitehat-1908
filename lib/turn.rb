@@ -12,7 +12,7 @@ def position_taken?(board, index)
 end
 
 def print_line(cellOne, cellTwo, cellThree)
-  puts " #{cellOne} |  #{cellTwo} | #{cellThree} "
+  puts " #{cellOne} | #{cellTwo} | #{cellThree} "
 end
 
 def valid_move?(board, index)
