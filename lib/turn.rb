@@ -23,6 +23,10 @@ def print_line(cellOne, cellTwo, cellThree)
   puts " #{cellOne} | #{cellTwo} | #{cellThree} "
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
+end
+
 def valid_move?(board, index)
   # if index.between?(1,9)
   #   if !position_taken?(board, index)
