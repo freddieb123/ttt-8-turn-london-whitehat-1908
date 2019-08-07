@@ -7,6 +7,10 @@ def display_board(board)
   print_line(board[6], board[7], board[8])
 end
 
+def input_to_index(input_str)
+  input_str.to_i - 1
+end
+
 def position_taken?(board, index)
   board[index] != " "
 end
